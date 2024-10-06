@@ -1,0 +1,33 @@
+body {
+    /* background-image: url('../public/bg.gif');
+    background-size: cover;  */
+    /* background-repeat: no-repeat; */
+    display: flex;
+    justify-content: center; 
+    /* min-height: 100vh;  */
+    margin: 0; 
+    padding:0;
+    color:whitesmoke;
+}
+
+#video-box{
+display:grid;
+grid-template-columns: repeat(4, 1fr); 
+gap:3vw;
+align-items: center;
+
+}
+.video-item{color:black;
+    background-color: whitesmoke;
+  
+}
+.video-item p{
+    text-align: center;
+    align-items: center;
+    font-weight: 500;
+    padding:0;
+}
+.parallelogram{
+    height:14vw;
+    width:20vw;
+}

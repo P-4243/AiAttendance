@@ -1,0 +1,78 @@
+body {
+    /* background-image: url('../public/bg.gif');
+    background-size: cover;  */
+    /* background-repeat: no-repeat; */
+   
+     min-height: 100vh;  
+    margin: 0; 
+    padding:0;
+}
+#login{font-size: 2vw;
+    border-radius:0;
+    margin-left:-0.1vw;
+    font-weight: 400;
+    text-align: center;
+    margin-top:4vw;
+ padding:1vw 0;
+   background-color: #0095ff;
+   color:whitesmoke;
+  width:48vw;
+  }
+#container{
+    color:rgb(0, 0, 0);
+
+    display:flex;
+    margin-top:-0.5vw;
+    flex-direction:column;
+    justify-content:center;
+    padding:1vw 4vw 3vw 4vw;
+   box-sizing: content-box;
+   background-color:whitesmoke;
+   width:40vw;
+}
+#date{
+    height:2vw;
+    width:10vw;
+    padding: 0 1vw;
+    font-size: 1vw;
+   
+    border-radius: 1vw;
+}
+.MyButtom{
+    margin-left:-1vw;
+}
+button{
+    margin-top:1vw;
+    margin-left:0vw;
+    padding:1.3vw;
+    font-size:1.1vw;
+    cursor: pointer;
+    border:none;
+   border:solid 0.15vw whitesmoke;
+    color:whitesmoke;
+    background: #0095ff;
+} 
+#username,#password{
+   border-radius:0.5vw;
+  font-size:1vw;
+    padding:1vw;
+   
+    outline:none;
+    border: none;
+}
+p{
+    font-size:1.2vw; 
+}
+#forgot{
+    font-size:1vw; 
+}
+/* #main{display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+button:hover{
+    background: whitesmoke;
+    color:#0095ff;
+    font-weight: 700;
+}

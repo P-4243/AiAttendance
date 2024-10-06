@@ -1,0 +1,22 @@
+.camera-details-container {
+  display:flex;
+  flex-direction: column;
+  
+    text-align: center;
+    padding: 2vw;
+  }
+  
+  .zoomed-video {
+    margin-left:-10vw;
+    width: 150%; 
+    height: auto;
+  }
+  
+  h1 {background-color: #0095ff;
+    padding:0.5vw;
+    border-radius: 3vw;
+    font-weight:400;
+    font-size: 2vw;
+    margin:0.5vw;
+  }
+  
